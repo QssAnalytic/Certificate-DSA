@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+textarea::-webkit-scrollbar {
+    width: 0;
+}
+
+textarea {
+    resize: none;
+    background-color: transparent;
+}
+
+textarea :hover {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+textarea :focus {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    resize: none;
+}
+
+@font-face {
+    font-family: "KunstlerScript";
+    src: url("../src/assets/sa/s.ttf")
+        format("truetype");
+}
