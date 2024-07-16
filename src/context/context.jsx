@@ -11,13 +11,14 @@ const MainProvider = ({ children }) => {
     ];
 
     const [selectedValue, setSelectedValue] = useState(options[0].value);
+    const [signature, setSignature] = useState('Aynur')
 
     const handleOptionChange = (selectedOption) => {
         setSelectedValue(selectedOption.value);
     };
 
     return (
-        <MainContext.Provider value={{ options, selectedValue, handleOptionChange }}>
+        <MainContext.Provider value={{ options, selectedValue, handleOptionChange, signature, setSignature }}>
             {children}
         </MainContext.Provider>
     );
@@ -27,4 +28,4 @@ const useMainContext = () => {
     return useContext(MainContext);
 };
 
-export { MainProvider, useMainContext };
+export { MainProvider, useMainContext, MainContext };
