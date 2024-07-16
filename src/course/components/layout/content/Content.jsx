@@ -53,35 +53,35 @@ const Content = () => {
       <div className="px-16 font-montserrat">
         <textarea
           rows="1"
-          className="w-full focus:outline-none capitalize pb-2 -tracking-wide  my-2 font-normal text-5xl">
+          className="w-full focus:outline-none capitalize pb-2  -tracking-wide  my-2 font-normal text-5xl">
           Xəyal xudiyev
         </textarea>
         <textarea
           onChange={(e) => setTitle(e.target.value)}
           value={title}
           rows="4"
-          className="title w-full focus:outline-none text-[17px] text-justify leading-[22px] font-medium tracking-[-0.018em] ">
+          className="title w-full focus:outline-none text-[25.1px] text-justify leading-[28px] font-medium ">
           {title}
         </textarea>
         <textarea
           rows="1"
-          className="w-full focus:outline-none text-2xl pb-2 pt-2  text-[#e31f60] font-bold tracking-tight">
+          className="w-full focus:outline-none text-2xl pb-2 pt-2 text-[29.2px]  text-[#e31f60] font-bold tracking-tight">
           Data Science Bootcamp
         </textarea>
         <textarea
           onChange={(e) => setContent(e.target.value)}
           value={content}
           rows="6"
-          className=" content w-full focus:outline-none text-[14px] print:tracking-[-0.070em]  text-justify leading-[19px] font-medium my-1">
+          className=" content w-full focus:outline-none text-[18.1px] print:tracking-[-0.070em] tracking-[-0.1px]  text-justify leading-[22px] font-medium my-1">
           {content}
         </textarea>
       </div>
 
       <div className="flex-col px-10">
-        <div className="flex justify-between items-end mt-2">
+        <div className="flex justify-between items-end mt-[2.5rem]">
           <div className="flex  text-start px-8 gap-9">
             <div className="pt-2 relative">
-              <img src={EtibarM} alt="" className="absolute bottom-6 m-2" />
+              <img src={EtibarM} alt="" className="absolute bottom-6" />
 
               <div className=" border-t-[1px] border-black">
                 <p className="text-sm font-semibold font-montserrat">Etibar Huseynli</p>
@@ -117,7 +117,7 @@ const Content = () => {
           </p>
           <div className="flex gap-0">
             <div className=" flex tracking-[4px] flex-1 items-center text-xs">
-              Certificate ID:
+              Certificate{" "} {" "} {" "}ID:
               <textarea className="tracking-[4px] focus:outline-none text-xs print:text-xs w-32 mr-8" rows="1">
                 SQL-8948780
               </textarea>
@@ -125,7 +125,7 @@ const Content = () => {
             <div>
               {/* adsasadasdasdasd */}
               <textarea rows="1" className=" w-44 tracking-[4px] focus:outline-none mt-1">
-                September 30 2023
+                September, 30 2023
               </textarea>
             </div>
           </div>
