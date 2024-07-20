@@ -72,7 +72,7 @@ const Content = () => {
           onChange={(e) => setContent(e.target.value)}
           value={content}
           rows="6"
-          className=" content w-full focus:outline-none text-[18.1px] print:tracking-[-0.070em] tracking-[-0.1px]  text-justify leading-[22px] font-medium my-1">
+          className=" content w-full focus:outline-none text-[18.1px] print:tracking-[-0.070em] tracking-[-0.1px]  text-justify leading-[22px] font-[300] my-1">
           {content}
         </textarea>
       </div>
