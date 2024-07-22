@@ -34,3 +34,11 @@ textarea :focus {
     src: url("../src/assets/sa/s.ttf")
         format("truetype");
 }
+
+/* print.css */
+@media print {
+    @page {
+      size: 400mm 255mm;
+    }
+  }
+  
