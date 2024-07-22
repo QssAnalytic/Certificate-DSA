@@ -38,7 +38,7 @@ textarea :focus {
 /* print.css */
 @media print {
     @page {
-      size: 400mm 255mm;
+      size: 450mm 274mm;
     }
   }
   
