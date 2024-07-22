@@ -15,7 +15,7 @@ const Hero = () => {
     return (
         <div className='relative '>
             <img src={imageUrl} alt="" className='w-full' />
-            <h1 className='absolute inset-0 pl-10 text-start flex items-center  text-[58px] -tracking-wide leading-tight text-white font-montserrat font-light'>Data Science Academy <br /> Certificate</h1>
+            <h1 className='absolute inset-0 pl-10 text-start flex items-center  text-[89px] -tracking-wide leading-tight text-white font-montserrat font-light'>Data Science Academy <br /> Certificate</h1>
         </div>
     );
 };

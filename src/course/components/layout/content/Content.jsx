@@ -53,14 +53,14 @@ const Content = () => {
       <div className="px-16 font-montserrat">
         <textarea
           rows="1"
-          className="w-full focus:outline-none capitalize pb-2  -tracking-wide  my-2 font-normal text-5xl">
+          className="w-full focus:outline-none capitalize pb-2 text-[#181233]  -tracking-wide  my-2 font-normal text-[55px]">
           Xəyal xudiyev
         </textarea>
         <textarea
           onChange={(e) => setTitle(e.target.value)}
           value={title}
           rows="4"
-          className="title w-full focus:outline-none text-[25.1px] text-justify leading-[28px] font-medium ">
+          className="title w-full focus:outline-none text-[26.4px] text-[#181233] text-justify leading-[28px] font-medium tracking-[0.4px] ">
           {title}
         </textarea>
         <textarea
@@ -72,7 +72,7 @@ const Content = () => {
           onChange={(e) => setContent(e.target.value)}
           value={content}
           rows="6"
-          className=" content w-full focus:outline-none text-[18.1px] print:tracking-[-0.070em] tracking-[-0.1px]  text-justify leading-[22px] font-[400] my-1">
+          className=" content w-full focus:outline-none text-[19.5px] text-[#181233]  tracking-[0.1px]  text-justify leading-[22px] font-[500] my-1">
           {content}
         </textarea>
       </div>
